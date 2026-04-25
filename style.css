@@ -1,0 +1,45 @@
+
+	.head1{
+        color: rgb(95, 226, 43) ;
+        background-color: rgb(148, 200, 85);
+        font-size: 40px;
+    }
+        #head1{
+        color: rgb(69, 166, 40) ;
+        background-color: rgb(196, 255, 237);
+        font-size: 40px;
+    }
+    .para1{
+	color:rgb(89, 17, 178);
+	color: #FF0000;
+	color: rgb(255,0,0);
+	color: rgba(255,0,0, 0.6);
+
+	text-align: left;
+			right, center, left
+
+	text-decoration: line-through;
+			underline, line-through, overline, none
+
+	/* text-indent: 50px; */
+			it provides indentation from left side to paragraphs
+
+	text-transform: uppercase;
+			/*uppercase, lowercase, capitalize
+
+	line-height: 62px;
+
+	letter-spacing: 2px;
+
+	word-spacing: 5px;
+
+
+	font-size: 25px;
+	
+	/*font-weight: bold;*/
+	
+	/*font-family: 'Xanh Mono', monospace;*/
+
+	/*font-style: italic; */
+
+}
