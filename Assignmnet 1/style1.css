@@ -1,0 +1,58 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: red;
+}
+.header {
+    width: 100%;
+    text-align: center;
+
+}
+.logo {
+    background-color: white;
+    width: 80%;       
+    height: 150px;     
+    object-fit: cover; 
+    display: block;
+    margin:0 auto;
+}
+.container{
+
+    background-color: rgb(38, 0, 255);
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+}
+.section2{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section2 span{
+    margin-left: 20px;
+}
+.section3_left{
+    background-color: green;
+    color: white;
+    height: 400px;
+    width: 30%;
+    float: left;
+}
+.section3_right{
+    background-color: orange;
+    color: white;
+    height: 400px;
+    width: 70%;
+    float: right;
+
+}
+
+.section4{
+    background-color: blue;
+    margin-bottom: auto; 
+    color: white;
+    width: 100%;
+    text-align: left;
+}

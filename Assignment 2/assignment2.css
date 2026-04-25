@@ -1,0 +1,580 @@
+.section1 {
+    height: 350px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Main-Superior-University-1.webp);
+    background-size: cover;
+
+}
+
+.section1 p {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    padding: 55px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgba(237, 220, 197, 0.82);
+    color: black;
+    gap: 40px;
+}
+
+.navbar li {
+    position: relative;
+    padding: 5px;
+}
+
+.navbar ul {
+    position: absolute;
+    background-color: whitesmoke;
+    color: green;
+    top: 100%;
+    left: 0px;
+    border-radius: 5px;
+    display: none;
+    width: 150px;
+}
+
+.navbar ul ul {
+    width: 100px;
+    left: 100%;
+    top: 0px;
+}
+
+.navbar li:hover>ul {
+    display: block;
+    padding: 10px;
+}
+
+.navbar li:hover {
+    color: white;
+    background-color: purple;
+    border-radius: 6px;
+    border-bottom: 3px solid black;
+
+}
+
+.navbar ul:hover {
+    color: black;
+    padding-right: 10px;
+}
+
+.welcome {
+    font-size: 40px;
+    padding: 7px;
+    margin-left: 15px;
+
+
+}
+
+.welcome p {
+    width: 60%;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.right {
+    float: right;
+    width: 300px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+}
+
+.date {
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.date span {
+    color: red;
+    font-size: 18px;
+}
+
+.right h3 {
+    margin: 15px 0;
+    color: #222;
+}
+
+.right a {
+    display: block;
+    margin: 5px 0;
+    color: blue;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.right img {
+    width: 70%;
+    margin-top: 15px;
+    border-radius: 6px;
+
+    .list li {
+        list-style-type: disc;
+        margin-left: 65px;
+
+    }
+
+    .redtext {
+        color: red;
+        margin-left: 40px;
+
+    }
+
+    .redtext a {
+        color: blue;
+        margin-left: 10px;
+        text-decoration: none;
+    }
+
+    .importantdates {
+        font-size: 40px;
+        margin-left: 15px;
+        padding: 8px;
+    }
+
+    table {
+        font-size: 18px;
+        gap: 20px;
+        border-collapse: collapse;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}
+
+.importantdates p {
+    color: red;
+    margin-right: 25px;
+}
+
+.sponsors p {
+    color: white;
+    background-color: rgb(31, 29, 29);
+    text-align: center;
+    padding: 15px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logos img {
+    background-color: antiquewhite;
+    height: 150px;
+    width: auto;
+}
+
+.footer p {
+    color: white;
+    background-color: rgb(31, 29, 29);
+    text-align: center;
+    padding: 15px;
+}
+
+.author {
+    display: flex;
+    text-align: center;
+}
+
+@media(max-width:767px) {
+    .section1 {
+        height: 350px;
+        background-color: bisque;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(Main-Superior-University-1.webp);
+        background-size: cover;
+
+    }
+
+    .section1 p {
+        background-color: rgba(0, 0, 0, 0.75);
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        width: 100%;
+        padding: 55px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .navbar {
+        display: flex;
+        background-color: rgba(237, 220, 197, 0.82);
+        color: black;
+        gap: 40px;
+    }
+
+    .navbar li {
+        position: relative;
+        padding: 5px;
+    }
+
+    .navbar ul {
+        position: absolute;
+        background-color: whitesmoke;
+        color: green;
+        top: 100%;
+        left: 0px;
+        border-radius: 5px;
+        display: none;
+        width: 150px;
+    }
+
+    .navbar ul ul {
+        width: 100px;
+        left: 100%;
+        top: 0px;
+    }
+
+    .navbar li:hover>ul {
+        display: block;
+        padding: 10px;
+    }
+
+    .navbar li:hover {
+        color: white;
+        background-color: purple;
+        border-radius: 6px;
+        border-bottom: 3px solid black;
+
+    }
+
+    .navbar ul:hover {
+        color: black;
+        padding-right: 10px;
+    }
+
+    .welcome {
+        font-size: 40px;
+        padding: 7px;
+        margin-left: 15px;
+
+
+    }
+
+    .welcome p {
+        width: 60%;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+
+    .right {
+        float: right;
+        width: 300px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+
+    }
+
+    .date {
+        color: blue;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .date span {
+        color: red;
+        font-size: 18px;
+    }
+
+    .right h3 {
+        margin: 15px 0;
+        color: #222;
+    }
+
+    .right a {
+        display: block;
+        margin: 5px 0;
+        color: blue;
+        text-decoration: underline;
+        font-size: 14px;
+    }
+
+    .right img {
+        width: 70%;
+        margin-top: 15px;
+        border-radius: 6px;
+
+        .list li {
+            list-style-type: disc;
+            margin-left: 65px;
+
+        }
+
+        .redtext {
+            color: red;
+            margin-left: 40px;
+
+        }
+
+        .redtext a {
+            color: blue;
+            margin-left: 10px;
+            text-decoration: none;
+        }
+
+        .importantdates {
+            font-size: 40px;
+            margin-left: 15px;
+            padding: 8px;
+        }
+
+        table {
+            font-size: 18px;
+            gap: 20px;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+    }
+
+    .importantdates p {
+        color: red;
+        margin-right: 25px;
+    }
+
+    .sponsors p {
+        color: white;
+        background-color: rgb(31, 29, 29);
+        text-align: center;
+        padding: 15px;
+    }
+
+    .logos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .logos img {
+        background-color: antiquewhite;
+        height: 150px;
+        width: auto;
+    }
+
+    .footer p {
+        color: white;
+        background-color: rgb(31, 29, 29);
+        text-align: center;
+        padding: 15px;
+    }
+
+    .author {
+        display: flex;
+        text-align: center;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:1100px) {
+    .section1 {
+        height: 350px;
+        background-color: bisque;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(Main-Superior-University-1.webp);
+        background-size: cover;
+
+    }
+
+    .section1 p {
+        background-color: rgba(0, 0, 0, 0.75);
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        width: 100%;
+        padding: 55px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .navbar {
+        display: flex;
+        background-color: rgba(237, 220, 197, 0.82);
+        color: black;
+        gap: 40px;
+    }
+
+    .navbar li {
+        position: relative;
+        padding: 5px;
+    }
+
+    .navbar ul {
+        position: absolute;
+        background-color: whitesmoke;
+        color: green;
+        top: 100%;
+        left: 0px;
+        border-radius: 5px;
+        display: none;
+        width: 150px;
+    }
+
+    .navbar ul ul {
+        width: 100px;
+        left: 100%;
+        top: 0px;
+    }
+
+    .navbar li:hover>ul {
+        display: block;
+        padding: 10px;
+    }
+
+    .navbar li:hover {
+        color: white;
+        background-color: purple;
+        border-radius: 6px;
+        border-bottom: 3px solid black;
+
+    }
+
+    .navbar ul:hover {
+        color: black;
+        padding-right: 10px;
+    }
+
+    .welcome {
+        font-size: 40px;
+        padding: 7px;
+        margin-left: 15px;
+
+
+    }
+
+    .welcome p {
+        width: 60%;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+
+    .right {
+        float: right;
+        width: 300px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+
+    }
+
+    .date {
+        color: blue;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .date span {
+        color: red;
+        font-size: 18px;
+    }
+
+    .right h3 {
+        margin: 15px 0;
+        color: #222;
+    }
+
+    .right a {
+        display: block;
+        margin: 5px 0;
+        color: blue;
+        text-decoration: underline;
+        font-size: 14px;
+    }
+
+    .right img {
+        width: 70%;
+        margin-top: 15px;
+        border-radius: 6px;
+
+        .list li {
+            list-style-type: disc;
+            margin-left: 65px;
+
+        }
+
+        .redtext {
+            color: red;
+            margin-left: 40px;
+
+        }
+
+        .redtext a {
+            color: blue;
+            margin-left: 10px;
+            text-decoration: none;
+        }
+
+        .importantdates {
+            font-size: 40px;
+            margin-left: 15px;
+            padding: 8px;
+        }
+
+        table {
+            font-size: 18px;
+            gap: 20px;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+    }
+
+    .importantdates p {
+        color: red;
+        margin-right: 25px;
+    }
+
+    .sponsors p {
+        color: white;
+        background-color: rgb(31, 29, 29);
+        text-align: center;
+        padding: 15px;
+    }
+
+    .logos {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .logos img {
+        background-color: antiquewhite;
+        height: 150px;
+        width: auto;
+    }
+
+    .footer p {
+        color: white;
+        background-color: rgb(31, 29, 29);
+        text-align: center;
+        padding: 15px;
+    }
+
+    .author {
+        display: flex;
+        text-align: center;
+    }
+}
